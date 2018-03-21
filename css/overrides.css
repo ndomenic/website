@@ -1,0 +1,11 @@
+.padded {
+	padding-left: 15%;
+ 	padding-right: 15%;
+}
+
+@media only screen and (max-width: 992px) {
+  .padded {
+    padding-left: 0rem;
+ 	padding-right: 0rem;
+  }
+}
