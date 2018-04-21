@@ -12,8 +12,10 @@
 <title>Nicholas Domenichini</title>
 <meta name="description" content="Nicholas Domenichini's personal website"/>
 <meta name="keywords" content="Nicholas, Domenichini"/>
-<link type="text/css" rel="stylesheet" href="css/material_icons.css">
-<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="css/overrides.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
@@ -21,12 +23,11 @@
 <body>
   <header>
     <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper padded blue">
-          <a href="index.html" class="brand-logo center-on-small-only hide-on-large-only">Nick D</a>
+      <nav class="blue">
+        <div class="nav-wrapper nav-container">
+          <a href="index.html" class="brand-logo center hide-on-large-only">Nick D</a>
+          <a data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <a href="index.html" class="brand-logo hide-on-med-and-down">Nicholas Domenichini</a>
-          <a href="#" data-target="mobile-nav" class="sidenav-trigger">
-            <i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -47,9 +48,33 @@
       </ul>
   </header>
 
-  <script type="text/javascript" src="js/jquery.js"></script>
+  <main>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/parallax1.jpg"></div>
+    </div>
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header">Hi there,</h2>
+        <p class="grey-text text-darken-3 lighten-3">
+          My name is Nicholas Domenichini - welcome to my personal website! I'm still deciding what to put here, but in the mean time feel free to poke around!
+        </p>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/parallax2.jpg"></div>
+    </div>
+  </main>
+
+  <footer class="page-footer blue">
+    <div class="footer-copyright">
+      <div class="container">
+        &copy; Nicholas Domenichini 2018
+        <span class="right">MIT Licence</span>
+      </div>
+    </div>
+  </footer>
+  
   <script type="text/javascript" src="js/init.js"></script>
-  <script type="text/javascript" src="js/materialize.js"></script>
 </body>
 
 </html>
