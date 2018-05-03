@@ -1,23 +1,15 @@
 <html>
 
-<header>
-  <title>Nicholas Domenichini</title>
-  <meta name="description"
-  content="Nicholas Domenichini's personal website"/>
-  <meta name="keywords"
-  content="Nicholas, Domenichini"/>
-</header>
-    
 <head>
-<title>Nicholas Domenichini</title>
-<meta name="description" content="Nicholas Domenichini's personal website"/>
-<meta name="keywords" content="Nicholas, Domenichini"/>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link type="text/css" rel="stylesheet" href="css/overrides.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nicholas Domenichini</title>
+  <meta name="description" content="Nicholas Domenichini's personal website"/>
+  <meta name="keywords" content="Nicholas, Domenichini"/>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/overrides.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
 <body>
@@ -48,7 +40,61 @@
       </ul>
   </header>
 
-  <main class="container">
+  <main>
+    <!--Resume-->
+    <div class="row">
+      <div class="col m8 offset-m2 col-resume">
+        <!--Contact-->
+        <div id="contact" class="section scrollspy center" style="line-height: 1">
+          <h3>Nicholas Domenichini</h3>
+          <p class="blue-text text-darken-3">
+            Computer Science Student
+          </p>
+          <p class="grey-text text-darken-3">
+            <em>Brampton, Ontario, Canada</em>
+          </p>
+          <p class="black-text text-darken-3">
+            (416) 688-9726 | 
+            <a class="black-text text-darken-3" href="mailto:ndomenic@uoguelph.ca">ndomenic@uoguelph.ca</a> | 
+            <a class="black-text text-darken-3" href="http://domenichini.ca">domenichini.ca</a> | 
+            <a class="black-text text-darken-3" href="http://github.com/ndomenic">github.com/ndomenic</a> 
+          </p>
+        </div>
+
+        <!--Skills-->
+        <div id="skills" class="section scrollspy">
+          <h5 class="resume-header blue-text text-darken-3">
+              Skills
+          </h5>
+          <hr>
+        </div>
+
+        <!--Experience-->
+        <div id="experience" class="section scrollspy">
+          <h5 class="resume-header blue-text text-darken-3">
+              Experience
+          </h5>
+          <hr>
+        </div>
+
+        <!--Education-->
+        <div id="education" class="section scrollspy">
+          <h5 class="resume-header blue-text text-darken-3">
+              Education
+          </h5>
+          <hr>
+        </div>
+      </div>
+      <!--Scrollspy for resume-->
+      <div class="col hide-on-small-only m2 col-resume">
+        <ul class="section table-of-contents pinned">
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </div>
+    </div>
   </main>
 
   <footer class="page-footer blue">

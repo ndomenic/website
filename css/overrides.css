@@ -44,3 +44,13 @@ main {
 .page-footer {
   padding-top: 0px; /*usually 20*/
 }
+
+.resume-header {
+	font-weight:bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .col-resume {
+    float: none !important;
+  }
+}
