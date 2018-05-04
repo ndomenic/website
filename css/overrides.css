@@ -54,3 +54,7 @@ main {
     float: none !important;
   }
 }
+
+.no-outline, .no-outline tr, .no-outline th, .no-outline td {
+	border: none;
+}
