@@ -16,7 +16,7 @@ main {
 @media only screen and (max-width: 992px) {
   .padded {
     padding-left: 0rem;
- 	padding-right: 0rem;
+ 	  padding-right: 0rem;
   }
 }
 
@@ -57,4 +57,17 @@ main {
 
 .no-outline, .no-outline tr, .no-outline th, .no-outline td {
 	border: none;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.collection .collection-item.avatar {
+  min-height: 0px
+}
+
+.card .card-title {
+  font-size: 30px;
+  font-weight: 400;
 }
