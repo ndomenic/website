@@ -56,18 +56,28 @@ main {
 
 .resume-organization {
   margin-top: 0;
+  color: #757575 !important;
 }
 
 .resume-location {
   margin-top: 0;
+  text-align: right;
 }
 
 .resume-time-period {
   margin-top: 0;
+  text-align: right;
+  color: #757575 !important;
 }
 
 .resume-bullets {
   margin-top: 0;
+}
+
+.skill-table th, td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
 }
 
 @media only screen and (max-width: 600px) {
