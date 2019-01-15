@@ -54,6 +54,22 @@ main {
   margin-top: 0;
 }
 
+.resume-organization {
+  margin-top: 0;
+}
+
+.resume-location {
+  margin-top: 0;
+}
+
+.resume-time-period {
+  margin-top: 0;
+}
+
+.resume-bullets {
+  margin-top: 0;
+}
+
 @media only screen and (max-width: 600px) {
   .col-resume {
     float: none !important;
